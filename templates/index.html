@@ -1,0 +1,12 @@
+<html>
+  <head>
+      <title> Basic Webpage </title>
+      <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <form action="{{ url_for('index') }}" method="post">
+      Enter the index number of the picture:  <input type="text" name="index"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
